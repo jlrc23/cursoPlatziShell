@@ -1,4 +1,7 @@
 #!/bin/bash
-echo "Empaquetar"
+echo "Empaquetar tar y gzip"
 
 tar -cvf shellCourse.tar *.sh
+
+gzip shellCourse.tar
+
